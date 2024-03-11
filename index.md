@@ -36,13 +36,13 @@ layout: default
       <tr>
         <td>Best Bite</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16043704949">604 370-4949</a></td>
+        <td><a href="tel:+16043704949">604370-4949</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Biryani Bhai</td>
         <td>Restaurants</td>
-        <td><a href="tel:+17782976961">778 297-6961</a></td>
+        <td><a href="tel:+17782976961">778297-6961</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
@@ -60,37 +60,37 @@ layout: default
       <tr>
         <td>Dr Sanju John</td>
         <td>Dentist</td>
-        <td><a href="tel:+17782516592">778 251-6592</a></td>
+        <td><a href="tel:+17782516592">778251-6592</a></td>
         <td></td>
       </tr>
       <tr>
         <td>Ember Kitchen</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16043704485">604 370-4485</a></td>
+        <td><a href="tel:+16043704485">604370-4485</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Exotic International</td>
         <td>Grocery</td>
-        <td><a href="tel:+16044475228">604 447-5228</a></td>
+        <td><a href="tel:+16044475228">604447-5228</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Fruiticana</td>
         <td>Grocery</td>
-        <td><a href="tel:+16042449520">604 244-9520</a></td>
+        <td><a href="tel:+16042449520">604244-9520</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Ginger</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16043701300">604 370-1300</a></td>
+        <td><a href="tel:+16043701300">604370-1300</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Himalaya</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16042472252">604 247-2252</a></td>
+        <td><a href="tel:+16042472252">604247-2252</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
@@ -102,37 +102,37 @@ layout: default
       <tr>
         <td>Joe & Joe Realty</td>
         <td>Realtor</td>
-        <td><a href="tel:+17788699091">778 869-9091</a></td>
+        <td><a href="tel:+17788699091">7788699091</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Murugan Temple</td>
         <td>Temple</td>
-        <td><a href="tel:+16042317649">604 231-7649</a></td>
+        <td><a href="tel:+16042317649">6042317649</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Naman Nagpaul</td>
         <td>Realtor</td>
-        <td><a href="tel:+17788460747">778 846-0747</a></td>
+        <td><a href="tel:+17788460747">7788460747</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Nanak Niwas Gurdwara</td>
         <td>Gurdwara</td>
-        <td><a href="tel:+16042747479">604 274-7479</a></td>
+        <td><a href="tel:+16042747479">6042747479</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Nanaksar Gurdwara</td>
         <td>Gurdwara</td>
-        <td><a href="tel:+16042707369">604 270 7369</a></td>
+        <td><a href="tel:+16042707369">6042707369</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Navjot Gahley</td>
         <td>Insurance</td>
-        <td><a href="tel:+17787884464">778 788-4464</a></td>
+        <td><a href="tel:+17787884464">7787884464</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
@@ -144,43 +144,43 @@ layout: default
       <tr>
         <td>Reeba Elizabeth</td>
         <td>Investment</td>
-        <td><a href="tel:+17789179812">778 917-9812</a></td>
+        <td><a href="tel:+17789179812">7789179812</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Richmond Pizza</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16042707777">604 270-7777</a></td>
+        <td><a href="tel:+16042707777">6042707777</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Sabji Mandi</td>
         <td>Grocery</td>
-        <td><a href="tel:+16042852400">604 285-2400</a></td>
+        <td><a href="tel:+16042852400">6042852400</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Sommi</td>
         <td>Realtor</td>
-        <td><a href="tel:+17783186693">778 318-6693</a></td>
+        <td><a href="tel:+17783186693">7783186693</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Subramaniya Swamy Temple</td>
         <td>Temple</td>
-        <td><a href="tel:+16042747906">604-274-7906</a></td>
+        <td><a href="tel:+16042747906">604-2747906</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Vedic Hindu Temple</td>
         <td>Temple</td>
-        <td><a href="tel:+16042759182">604 275-9182</a></td>
+        <td><a href="tel:+16042759182">6042759182</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>UCMAS</td>
         <td>Education</td>
-        <td><a href="tel:+16042487575">604 248-7575</a></td>
+        <td><a href="tel:+16042487575">6042487575</a></td>
         <td><a href="#"></a></td>
       </tr>
   </tbody>
