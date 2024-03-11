@@ -2,9 +2,9 @@
 layout: default
 ---
 
-Essential contacts and community services for the Indian community in Richmond.
 
-## Welcome to Indians in Richmond Contacts
+##Indians in Richmond: Contacts
+  <button onclick="window.history.back()">Back</button>
 
 <div id="filter">
   <label for="category-filter">Filter by Category:</label>
@@ -21,7 +21,7 @@ Essential contacts and community services for the Indian community in Richmond.
     <option value="temple">Temple</option>
   </select>
 </div>
-[back](./)
+
 <table id="yellow-pages">
   <thead>
     <tr>
