@@ -36,13 +36,13 @@ layout: default
       <tr>
         <td>Best Bite</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16043704949">604370-4949</a></td>
+        <td><a href="tel:+16043704949">6043704949</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Biryani Bhai</td>
         <td>Restaurants</td>
-        <td><a href="tel:+17782976961">778297-6961</a></td>
+        <td><a href="tel:+17782976961">7782976961</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
@@ -60,37 +60,37 @@ layout: default
       <tr>
         <td>Dr Sanju John</td>
         <td>Dentist</td>
-        <td><a href="tel:+17782516592">778251-6592</a></td>
+        <td><a href="tel:+17782516592">7782516592</a></td>
         <td></td>
       </tr>
       <tr>
         <td>Ember Kitchen</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16043704485">604370-4485</a></td>
+        <td><a href="tel:+16043704485">6043704485</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Exotic International</td>
         <td>Grocery</td>
-        <td><a href="tel:+16044475228">604447-5228</a></td>
+        <td><a href="tel:+16044475228">6044475228</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Fruiticana</td>
         <td>Grocery</td>
-        <td><a href="tel:+16042449520">604244-9520</a></td>
+        <td><a href="tel:+16042449520">6042449520</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Ginger</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16043701300">604370-1300</a></td>
+        <td><a href="tel:+16043701300">6043701300</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Himalaya</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16042472252">604247-2252</a></td>
+        <td><a href="tel:+16042472252">6042472252</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
@@ -168,7 +168,7 @@ layout: default
       <tr>
         <td>Subramaniya Swamy Temple</td>
         <td>Temple</td>
-        <td><a href="tel:+16042747906">604-2747906</a></td>
+        <td><a href="tel:+16042747906">6042747906</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
