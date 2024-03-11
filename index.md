@@ -90,7 +90,7 @@ layout: default
       <tr>
         <td>Himalaya</td>
         <td>Restaurants</td>
-        <td><a href="tel:+16042472252">(604) 247-2252</a></td>
+        <td><a href="tel:+16042472252">604 247-2252</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
