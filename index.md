@@ -9,6 +9,7 @@ layout: default
     <ul>
       <li><a href="https://www.facebook.com/groups/900644660267654"><i class="fab fa-facebook"></i> Facebook</a></li>
       <li><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+      <li><a href="https://www.facebook.com/groups/900644660267654/events"><i class="fab fa-facebook"></i> Events</a></li>
     </ul>
   </div>
 
@@ -147,9 +148,15 @@ layout: default
       <td><a href="https://www.facebook.com/phoenix.richmond.malayalee">Facebook</a></td>
     </tr>
     <tr>
+      <td>Reeba Elizabeth</td>
+      <td>Investment</td>
+      <td><a href="tel:+17789179812">778 917-9812</a></td>
+      <td><a href="#"></a></td>
+    </tr>
+    <tr>
       <td>Richmond Pizza</td>
       <td>Restaurants</td>
-      <td><a href="tel:+16042707777">(604) 270-7777</a></td>
+      <td><a href="tel:+16042707777">604 270-7777</a></td>
       <td><a href="#"></a></td>
     </tr>
     <tr>
