@@ -46,6 +46,12 @@ layout: default
         <td><a href="#"></a></td>
       </tr>
       <tr>
+        <td>Bhullar Wrestling Club</td>
+        <td>Education</td>
+        <td></td>
+        <td><a href="https://www.facebook.com/BhullarWrestlingClub/">Facebook</a></td>
+      </tr>
+      <tr>
         <td>Dance Academy</td>
         <td>Education</td>
         <td></td>
@@ -157,6 +163,24 @@ layout: default
         <td>Sommi</td>
         <td>Realtor</td>
         <td><a href="tel:+17783186693">778 318-6693</a></td>
+        <td><a href="#"></a></td>
+      </tr>
+      <tr>
+        <td>Subramaniya Swamy Temple</td>
+        <td>Temple</td>
+        <td><a href="tel:+16042747906">604-274-7906</a></td>
+        <td><a href="#"></a></td>
+      </tr>
+      <tr>
+        <td>Vedic Hindu Temple</td>
+        <td>Temple</td>
+        <td><a href="tel:+16042759182">604 275-9182</a></td>
+        <td><a href="#"></a></td>
+      </tr>
+      <tr>
+        <td>UCMAS</td>
+        <td>Education</td>
+        <td><a href="tel:+16042487575">604 248-7575</a></td>
         <td><a href="#"></a></td>
       </tr>
   </tbody>
