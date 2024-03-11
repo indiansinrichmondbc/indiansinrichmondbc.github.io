@@ -6,14 +6,15 @@ layout: default
   <div class="intro">
     <h4>The Best of Indian Community and Businesses in Richmond</h4>
     <p>Connect, share, and stay informed with us on</p>
-    <ul>
-      <li><a href="https://www.facebook.com/groups/900644660267654"><i class="fab fa-facebook"></i> Facebook</a></li>
-      <li><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
-      <li><a href="https://www.facebook.com/groups/900644660267654/events"><i class="fab fa-facebook"></i> Events</a></li>
-    </ul>
+<ul>
+  <li><a href="https://www.facebook.com/groups/900644660267654"><img src="/assets/img/facebook.svg" alt="Facebook Icon" width="24" height="24"> Facebook</a></li>
+  <li><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5"><img src="/assets/img/whatsapp.svg" alt="WhatsApp Icon" width="24" height="24"> WhatsApp</a></li>
+  <li><a href="https://www.facebook.com/groups/900644660267654/events"><img src="/assets/img/calendar.svg" alt="Facebook Icon" width="24" height="24"> Events</a></li>
+</ul>
+
   </div>
 
-  <div id="filter">
+  <div id="filter" style="text-align: center;">
     <label for="category-filter">Category:</label>
     <select id="category-filter">
       <option value="all">All Categories</option>
@@ -35,7 +36,7 @@ layout: default
       <th>Name</th>
       <th>Category</th>
       <th>Contact</th>
-      <th>Link</th>
+      <th>Email/Website</th>
     </tr>
   </thead>
   <tbody>
@@ -133,12 +134,6 @@ layout: default
       <td>Navjot Gahley</td>
       <td>Insurance</td>
       <td><a href="tel:+17787884464">778 788-4464</a></td>
-      <td><a href="#"></a></td>
-    </tr>
-    <tr>
-      <td>Naman Nagpaul</td>
-      <td>Realtor</td>
-      <td><a href="tel:+17788460747">778 846-0747</a></td>
       <td><a href="#"></a></td>
     </tr>
     <tr>
