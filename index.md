@@ -4,12 +4,8 @@ layout: default
 
 <div class="container">
   <div class="intro">
-    <h3>Discover the Best of Indian Community and Businesses in Richmond</h3>
-    <p>Connect, share, and stay informed with us.</p>
-  </div>
-
-  <div class="join-links">
-    <p>Join us on:</p>
+    <h4>The Best of Indian Community and Businesses in Richmond</h4>
+    <p>Connect, share, and stay informed with us on</p>
     <ul>
       <li><a href="https://www.facebook.com/groups/900644660267654"><i class="fab fa-facebook"></i> Facebook</a></li>
       <li><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
@@ -17,7 +13,7 @@ layout: default
   </div>
 
   <div id="filter">
-    <label for="category-filter">Filter by Category:</label>
+    <label for="category-filter">Category:</label>
     <select id="category-filter">
       <option value="all">All Categories</option>
       <option value="dentist">Dentist</option>
