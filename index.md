@@ -7,7 +7,7 @@ layout: default
     <h3 style="text-align: center;">The Best of Indian Community and Businesses in Richmond</h3>
   </div>
 
-  <div id="filter" style="text-align: right;">
+  <div id="filter" style="text-align: right; padding-bottom: 10px;">
     <label for="category-filter">Category:</label>
     <select id="category-filter">
       <option value="all">All Categories</option>
