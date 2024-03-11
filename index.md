@@ -5,7 +5,6 @@ layout: default
 <div class="container">
   <div class="intro">
     <h4>The Best of Indian Community and Businesses in Richmond</h4>
-    <p><a href="mailto:yourbusiness@gmail.com" class="btn btn-info"><img src="/assets/img/gmail.svg" alt="Email Icon" width="24" height="24"> <strong>Add/edit contacts</strong></a></p>
   </div>
 
   <div id="filter" style="text-align: center;">
@@ -162,6 +161,9 @@ layout: default
       </tr>
   </tbody>
 </table>
+<div style="text-align: center;">
+  <p><a href="mailto:yourbusiness@gmail.com" class="btn btn-info"><img src="/assets/img/gmail.svg" alt="Email Icon" width="24" height="24"> <strong>Add/edit/request contacts</strong></a></p>
+</div>
 </div>
 
 <script>
