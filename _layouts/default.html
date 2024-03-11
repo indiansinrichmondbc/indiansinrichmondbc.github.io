@@ -15,8 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
+      
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -32,11 +31,11 @@
         {% endif %}
 
         {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="https://www.facebook.com/groups/900644660267654" target="_blank"><strong>Facebook</strong></a></li>
-          <li><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5" target="_blank"><strong>WhatsApp</strong></a></li>
-          <li><a href="mailto:adichourasiya@gmail.com"><strong>Contact</strong></a></li>
-       </ul>      
+        <ul class="downloads" style="padding: 0; margin: 0;">
+          <li style="display: inline-block; vertical-align: middle; margin-right: 10px;"><a href="https://www.facebook.com/groups/900644660267654" target="_blank"><strong>Facebook</strong></a></li>
+          <li style="display: inline-block; vertical-align: middle; margin-right: 10px;"><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5" target="_blank"><strong>WhatsApp</strong></a></li>
+          <li style="display: inline-block; vertical-align: middle;"><a href="mailto:adichourasiya@gmail.com"><strong>Contact</strong></a></li>
+      </ul>      
         {% endif %}
       </header>
       <section>
@@ -45,7 +44,7 @@
 
       </section>
       <footer>
-        <p><small>Welcome to the vibrant connection hub of the Indians in Richmond community!</small></p>
+        <p><small><p>This site is made possible by our sponsors and community members.</p></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

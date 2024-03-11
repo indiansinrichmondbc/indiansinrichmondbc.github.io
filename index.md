@@ -2,12 +2,22 @@
 layout: default
 ---
 
-Welcome to the vibrant hub of the Indians in Richmond community! Connect with members, share experiences, and stay informed. 
+<div class="intro">
+  <p>Welcome to the vibrant Indians in Richmond community hub! Connect, share, and stay informed with us.</p>
+</div>
 
-Join our
-[Facebook group](https://www.facebook.com/groups/900644660267654) or join our
-[Whatsapp community](https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5) to connect and contribute today!
+<div class="join-links">
+  <p>Join us on:</p>
+  <ul>
+    <li><a href="https://www.facebook.com/groups/900644660267654"><i class="fab fa-facebook"></i> Facebook</a></li>
+    <li><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+  </ul>
+</div>
 
-Start exploring, connecting, and engaging! We're excited to have you with us!
+<div class="explore">
+  <p>Start exploring, connecting, and engaging. We're thrilled to have you with us!</p>
+</div>
 
-For Indians in Richmond BC Community groups and business contacts, please visit our [Contacts](Contacts.html).
+<div class="contacts-link">
+  <p>For Indians in Richmond BC contacts, visit our <a href="Contacts.html">Contacts page</a>.</p>
+</div>
