@@ -202,7 +202,7 @@ Essential contacts and community services for the Indian community in Richmond.
         <td><a href="tel:+12363300741">236 330-0741</a></td>
         <td><a href="#"></a></td>
         </tr>
-    <!-- Add more Temples alphabetically -->
+        <tr>
         <td>Murugan Temple</td>
         <td>Temple</td>
         <td><a href="tel:+16042317649">604 231-7649</a></td>
