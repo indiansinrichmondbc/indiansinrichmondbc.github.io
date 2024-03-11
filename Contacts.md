@@ -21,12 +21,37 @@ layout: default
   </select>
 </div>
 
-| Name                      | Category   | Contact         | Link                                 |
-|---------------------------|------------|-----------------|--------------------------------------|
-| Dr Sanju John             | Dentist    | [778 251-6592](tel:+17782516592) |                                      |
-| Hindi Classes at Temple   | Education  |                 | [WhatsApp](https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5) |
-| Dance Academy             | Education  |                 | [Facebook](https://www.facebook.com/SudnyaDanceAcademy) |
-<!-- Add more contacts alphabetically -->
+<table id="yellow-pages">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Category</th>
+      <th>Contact</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dr Sanju John</td>
+      <td>Dentist</td>
+      <td><a href="tel:+17782516592">778 251-6592</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hindi Classes at Temple</td>
+      <td>Education</td>
+      <td></td>
+      <td><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5" target="_blank">WhatsApp</a></td>
+    </tr>
+    <tr>
+      <td>Dance Academy</td>
+      <td>Education</td>
+      <td></td>
+      <td><a href="https://www.facebook.com/SudnyaDanceAcademy" target="_blank">Facebook</a></td>
+    </tr>
+    <!-- Add more contacts alphabetically -->
+  </tbody>
+</table>
 
 <script>
   function sortTable(columnIndex) {
