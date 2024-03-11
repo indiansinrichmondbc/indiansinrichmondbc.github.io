@@ -14,18 +14,24 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-        <ul class="downloads" style="padding: 0; margin: 0; list-style: none;">
+        <ul class="contactus" style="padding: 0; margin: 0; list-style: none;">
           <li style="display: inline-block; margin-right: 10px; vertical-align: middle;">
-            <a href="https://www.facebook.com/groups/900644660267654" target="_blank" class="btn btn-primary"><strong>Facebook</strong></a>
+            <a href="https://www.facebook.com/groups/900644660267654" target="_blank" class="btn btn-primary">
+              <i class="fab fa-facebook"></i> <strong>Facebook</strong>
+            </a>
           </li>
           <li style="display: inline-block; margin-right: 10px; vertical-align: middle;">
-            <a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5" target="_blank" class="btn btn-success"><strong>WhatsApp</strong></a>
+            <a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5" target="_blank" class="btn btn-success">
+              <i class="fab fa-whatsapp"></i> <strong>WhatsApp</strong>
+            </a>
           </li>
-          <li style="display: inline-block; vertical-align: middle;">
-            <a href="mailto:adichourasiya@gmail.com" class="btn btn-info"><strong>Email</strong></a>
+          <li style="display: inline-block; margin-right: 10px; vertical-align: middle;">
+            <a href="mailto:adichourasiya@gmail.com" class="btn btn-info">
+              <i class="far fa-envelope"></i> <strong>Email</strong>
+            </a>
           </li>
-        </ul>          
-      </header>
+        </ul>
+      </header>      
         <section>
         {{ content }}
         </section>
