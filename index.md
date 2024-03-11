@@ -186,7 +186,7 @@ layout: default
   </tbody>
 </table>
 <div style="text-align: center;">
-  <p><a href="mailto:yourbusiness@gmail.com" class="btn btn-info"><img src="/assets/img/gmail.svg" alt="Email Icon" width="24" height="24"> <strong>Add/edit/request contacts</strong></a></p>
+  <p><a href="mailto:adichourasiya@gmail.com" class="btn btn-info"><img src="/assets/img/gmail.svg" alt="Email Icon" width="24" height="24"> <strong>Add/edit/request contacts</strong></a></p>
 </div>
 </div>
 
