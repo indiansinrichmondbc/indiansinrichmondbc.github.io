@@ -2,9 +2,8 @@
 layout: default
 ---
 
-
-##Indians in Richmond: Contacts
-  <button onclick="window.history.back()">Back</button>
+# Indians in Richmond: Contacts
+<button onclick="window.history.back()">Back</button>
 
 <div id="filter">
   <label for="category-filter">Filter by Category:</label>
@@ -22,37 +21,12 @@ layout: default
   </select>
 </div>
 
-<table id="yellow-pages">
-  <thead>
-    <tr>
-      <th><button onclick="sortTable(0)">Name</button></th>
-      <th>Category</th>
-      <th>Contact</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Dr Sanju John</td>
-      <td>Dentist</td>
-      <td><a href="tel:+17782516592">778 251-6592</a></td>
-      <td><a href="#"></a></td>
-    </tr>
-    <tr>
-      <td>Hindi Classes at Temple</td>
-      <td>Education</td>
-      <td><a href="tel:+"></a></td>
-      <td><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5">WhatsApp</a></td>
-    </tr>
-    <tr>
-      <td>Dance Academy</td>
-      <td>Education</td>
-      <td><a href="tel:+"></a></td>
-      <td><a href="https://www.facebook.com/SudnyaDanceAcademy">Facebook</a></td>
-    </tr>
-    <!-- Add more contacts alphabetically -->
-  </tbody>
-</table>
+| Name                      | Category   | Contact         | Link                                 |
+|---------------------------|------------|-----------------|--------------------------------------|
+| Dr Sanju John             | Dentist    | [778 251-6592](tel:+17782516592) |                                      |
+| Hindi Classes at Temple   | Education  |                 | [WhatsApp](https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5) |
+| Dance Academy             | Education  |                 | [Facebook](https://www.facebook.com/SudnyaDanceAcademy) |
+<!-- Add more contacts alphabetically -->
 
 <script>
   function sortTable(columnIndex) {
