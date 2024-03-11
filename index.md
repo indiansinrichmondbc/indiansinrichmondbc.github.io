@@ -91,7 +91,7 @@ layout: default
         <td>Himalaya</td>
         <td>Restaurants</td>
         <td><a href="tel:+16042472252">6042472252</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="https://himalayarest.com/location/richmond/">website</a></td>
       </tr>
       <tr>
         <td>Hindi Classes at Temple</td>
@@ -109,25 +109,25 @@ layout: default
         <td>Murugan Temple</td>
         <td>Temple</td>
         <td><a href="tel:+16042317649">6042317649</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="https://richmondmurugantemple.org">website</a></td>
       </tr>
       <tr>
         <td>Naman Nagpaul</td>
         <td>Realtor</td>
         <td><a href="tel:+17788460747">7788460747</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="https://www.facebook.com/namannagpaul1">facebook</a></td>
       </tr>
       <tr>
         <td>Nanak Niwas Gurdwara</td>
         <td>Gurdwara</td>
         <td><a href="tel:+16042747479">6042747479</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="https://nanakniwas.ca/"></a>website</td>
       </tr>
       <tr>
         <td>Nanaksar Gurdwara</td>
         <td>Gurdwara</td>
         <td><a href="tel:+16042707369">6042707369</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="https://www.facebook.com/nanaksarrichmond/">facebook</a></td>
       </tr>
       <tr>
         <td>Navjot Gahley</td>
@@ -139,37 +139,37 @@ layout: default
         <td>Phoenix</td>
         <td>Sports</td>
         <td><a href="tel:+"></a></td>
-        <td><a href="https://www.facebook.com/phoenix.richmond.malayalee">Facebook</a></td>
+        <td><a href="https://www.facebook.com/phoenix.richmond.malayalee">facebook</a></td>
       </tr>
       <tr>
         <td>Reeba Elizabeth</td>
         <td>Investment</td>
         <td><a href="tel:+17789179812">7789179812</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="https://www.facebook.com/reeba.flojo">facebook</a></td>
       </tr>
       <tr>
         <td>Richmond Pizza</td>
         <td>Restaurants</td>
         <td><a href="tel:+16042707777">6042707777</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="https://www.richmondpizzano5.ca/">website</a></td>
       </tr>
       <tr>
         <td>Sabji Mandi</td>
         <td>Grocery</td>
         <td><a href="tel:+16042852400">6042852400</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="http://sabzimandicanada.com/"></a>website</td>
       </tr>
       <tr>
         <td>Sommi</td>
         <td>Realtor</td>
         <td><a href="tel:+17783186693">7783186693</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="mailto:choiandcorealty@gmail.com"></a>email</td>
       </tr>
       <tr>
         <td>Subramaniya Swamy Temple</td>
         <td>Temple</td>
         <td><a href="tel:+16042747906">6042747906</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="https://www.subramaniyaswamytemple.ca/">website</a></td>
       </tr>
       <tr>
         <td>Vedic Hindu Temple</td>
@@ -181,13 +181,13 @@ layout: default
         <td>UCMAS</td>
         <td>Education</td>
         <td><a href="tel:+16042487575">6042487575</a></td>
-        <td><a href="#"></a></td>
+        <td><a href="https://www.facebook.com/UCMASBCRichmond">facebook</a></td>
       </tr>
       <tr>
           <td>Yatra Rentals</td>
           <td>RV Rentals</td>
           <td><a href="tel:+12363300741">2363300741</a></td>
-          <td><a href="#"></a></td>
+          <td><a href="https://www.facebook.com/YatraRVRentals">facebook</a></td>
       </tr>
 
   </tbody>
