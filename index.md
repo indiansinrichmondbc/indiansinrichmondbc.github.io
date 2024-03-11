@@ -4,10 +4,10 @@ layout: default
 
 <div class="container">
   <div class="intro">
-    <h4>The Best of Indian Community and Businesses in Richmond</h4>
+    <h3 style="text-align: center;">The Best of Indian Community and Businesses in Richmond</h3>
   </div>
 
-  <div id="filter" style="text-align: center;">
+  <div id="filter" style="text-align: right;">
     <label for="category-filter">Category:</label>
     <select id="category-filter">
       <option value="all">All Categories</option>
