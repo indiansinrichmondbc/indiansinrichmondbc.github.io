@@ -55,7 +55,6 @@ Essential contacts and community services for the Indian community in Richmond.
         <td>Education</td>
         <td><a href="tel:+16042487575">6042487575</a></td>
         <td><a href="#"></a></td>
-          <!-- Add more Gurdwara alphabetically -->
         <tr>
         <td>Nanaksar Gurdwara</td>
         <td>Gurdwara</td>
@@ -104,7 +103,6 @@ Essential contacts and community services for the Indian community in Richmond.
         <td><a href="tel:+17787884464">778 788-4464</a></td>
         <td><a href="#"></a></td>
         </tr>
-    <!-- Add more Realtor alphabetically -->
         <tr>
         <td>Joe & Joe Realty</td>
         <td>Realtor</td>
@@ -129,7 +127,6 @@ Essential contacts and community services for the Indian community in Richmond.
         <td><a href="tel:+17783186693">778 318-6693</a></td>
         <td><a href="#"></a></td>
         </tr>
-    <!-- Add more Restaurants alphabetically -->
         <tr>
         <td>Best Bite</td>
         <td>Restaurants</td>
@@ -220,7 +217,6 @@ Essential contacts and community services for the Indian community in Richmond.
         <td><a href="tel:+16042759182">604 275-9182</a></td>
         <td><a href="#"></a></td>
         </tr>
-    <!-- Add more contacts alphabetically -->
   </tbody>
 </table>
 
