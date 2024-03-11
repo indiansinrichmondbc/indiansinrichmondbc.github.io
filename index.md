@@ -183,6 +183,13 @@ layout: default
         <td><a href="tel:+16042487575">6042487575</a></td>
         <td><a href="#"></a></td>
       </tr>
+      <tr>
+          <td>Yatra Rentals</td>
+          <td>RV Rentals</td>
+          <td><a href="tel:+12363300741">2363300741</a></td>
+          <td><a href="#"></a></td>
+      </tr>
+
   </tbody>
 </table>
 <div style="text-align: center;">
