@@ -10,4 +10,4 @@ Join our
 
 Start exploring, connecting, and engaging! We're excited to have you with us!
 
-For Indians in Richmond BC Community groups and business contacts, please visit our [Contacts](Contacts.md).
+For Indians in Richmond BC Community groups and business contacts, please visit our [Contacts](Contacts.html).
