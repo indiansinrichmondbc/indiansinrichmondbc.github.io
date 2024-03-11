@@ -6,11 +6,6 @@ layout: default
   <div class="intro">
     <h4>The Best of Indian Community and Businesses in Richmond</h4>
     <p>Connect, share, and stay informed with us on</p>
-    <ul>
-      <li><a href="https://www.facebook.com/groups/900644660267654"><img src="/assets/img/facebook.svg" alt="Facebook Icon" width="24" height="24"> Facebook</a></li>
-      <li><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5"><img src="/assets/img/whatsapp.svg" alt="WhatsApp Icon" width="24" height="24"> WhatsApp</a></li>
-      <li><a href="https://www.facebook.com/groups/900644660267654/events"><img src="/assets/img/calendar.svg" alt="Calendar Icon" width="24" height="24"> Events</a></li>
-    </ul>
   </div>
 
   <div id="filter" style="text-align: center;">
