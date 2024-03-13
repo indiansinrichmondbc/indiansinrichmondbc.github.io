@@ -57,7 +57,7 @@ layout: default
         <td><a href="https://www.Facebook.com/BhullarWrestlingClub/">Facebook</a></td>
       </tr>
       <tr>
-        <td>Dance Academy</td>
+        <td>Sudnya Dance Academy</td>
         <td>Education</td>
         <td></td>
         <td><a href="https://www.Facebook.com/SudnyaDanceAcademy" target="_blank">Facebook</a></td>
@@ -111,7 +111,7 @@ layout: default
         <td><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5" target="_blank">WhatsApp</a></td>
       </tr>
       <tr>
-        <td>Joe & Joe Realty</td>
+        <td>Joe & Joe</td>
         <td>Realtor</td>
         <td><a href="tel:+17788699091">7788699091</a></td>
         <td><a href="#"></a></td>
@@ -123,7 +123,7 @@ layout: default
         <td><a href="https://www.fairmovers.ca/">Website</a></td>
       </tr>
       <tr>
-        <td>Murugan Temple</td>
+        <td>Murugan</td>
         <td>Temple</td>
         <td><a href="tel:+16042317649">6042317649</a></td>
         <td><a href="https://richmondmurugantemple.org">Website</a></td>
@@ -162,7 +162,7 @@ layout: default
       <tr>
         <td>Poonam Maheshwari</td>
         <td>Mortgage</td>
-        <td><a href="tel:+17789179812"(6047839401</a></td>
+        <td><a href="tel: +17789179812"(6047839401</a></td>
         <td><a href="mailto: poonam@flyking.co.in">Email</a></td>
       </tr>
       <tr>
@@ -196,13 +196,13 @@ layout: default
         <td><a href="mailto:choiandcorealty@gmail.com"></a>Email</td>
       </tr>
       <tr>
-        <td>Subramaniya Swamy Temple</td>
+        <td>Subramaniya Swamy</td>
         <td>Temple</td>
         <td><a href="tel:+16042747906">6042747906</a></td>
         <td><a href="https://www.subramaniyaswamytemple.ca/">Website</a></td>
       </tr>
       <tr>
-        <td>Vedic Hindu Temple</td>
+        <td>Vedic Hindu</td>
         <td>Temple</td>
         <td><a href="tel:+16042759182">6042759182</a></td>
         <td><a href="#"></a></td>
@@ -219,7 +219,6 @@ layout: default
           <td><a href="tel:+12363300741">2363300741</a></td>
           <td><a href="https://www.Facebook.com/YatraRVRentals">Facebook</a></td>
       </tr>
-
   </tbody>
 </table>
 <div style="text-align: center;">
