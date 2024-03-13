@@ -13,8 +13,13 @@ layout: default
       <option value="all">All Categories</option>
       <option value="dentist">Dentist</option>
       <option value="education">Education</option>
+      <option value="garage coating">Education</option>
       <option value="gurdwara">Gurdwara</option>
+      <option value="handyman">Insurance</option>
       <option value="insurance">Insurance</option>
+      <option value="movers">Insurance</option>
+      <option value="painter">Insurance</option>
+      <option value="rentals">Insurance</option>
       <option value="realtor">Realtor</option>
       <option value="restaurants">Restaurants</option>
       <option value="rv rentals">RV Rentals</option>
@@ -70,6 +75,12 @@ layout: default
         <td><a href="#"></a></td>
       </tr>
       <tr>
+        <td>Crown</td>
+        <td>Garage Coating</td>
+        <td><a href="tel:+16044452857">6044452857</a></td>
+        <td><a href="#"></a></td>
+      </tr>
+      <tr>
         <td>Exotic International</td>
         <td>Grocery</td>
         <td><a href="tel:+16044475228">6044475228</a></td>
@@ -104,6 +115,12 @@ layout: default
         <td>Realtor</td>
         <td><a href="tel:+17788699091">7788699091</a></td>
         <td><a href="#"></a></td>
+      </tr>
+      <tr>
+        <td>Fair</td>
+        <td>Movers</td>
+        <td><a href="tel:+16043490777">6043490777</a></td>
+        <td><a href="https://www.fairmovers.ca/">Website</a></td>
       </tr>
       <tr>
         <td>Murugan Temple</td>
