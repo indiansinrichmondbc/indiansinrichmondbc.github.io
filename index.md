@@ -138,7 +138,7 @@ layout: default
         <td>Nanak Niwas Gurdwara</td>
         <td>Gurdwara</td>
         <td><a href="tel:+16042747479">6042747479</a></td>
-        <td><a href="https://nanakniwas.ca/"></a>Website</td>
+        <td><a href="https://nanakniwas.ca/">Website</a></td>
       </tr>
       <tr>
         <td>Nanaksar Gurdwara</td>
@@ -192,7 +192,7 @@ layout: default
         <td>Sommi</td>
         <td>Realtor</td>
         <td><a href="tel:+17783186693">7783186693</a></td>
-        <td><a href="mailto:choiandcorealty@gmail.com"></a>Email</td>
+        <td><a href="mailto:choiandcorealty@gmail.com">Email</a></td>
       </tr>
       <tr>
         <td>Subramaniya Swamy</td>
