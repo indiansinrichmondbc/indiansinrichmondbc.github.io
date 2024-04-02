@@ -21,7 +21,7 @@ layout: default
       <option value="painter">Painter</option>
       <option value="rentals">Rentals</option>
       <option value="realtor">Realtor</option>
-      <option value="restaurants">Restaurants</option>
+      <option value="Restaurant">Restaurant</option>
       <option value="rv rentals">RV Rentals</option>
       <option value="sports">Sports</option>
       <option value="temple">Temple</option>
@@ -40,13 +40,13 @@ layout: default
     <tbody>
       <tr>
         <td>Best Bite</td>
-        <td>Restaurants</td>
+        <td>Restaurant</td>
         <td><a href="tel:+16043704949">6043704949</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Biryani Bhai</td>
-        <td>Restaurants</td>
+        <td>Restaurant</td>
         <td><a href="tel:+17782976961">7782976961</a></td>
         <td><a href="#"></a></td>
       </tr>
@@ -70,7 +70,7 @@ layout: default
       </tr>
       <tr>
         <td>Ember Kitchen</td>
-        <td>Restaurants</td>
+        <td>Restaurant</td>
         <td><a href="tel:+16043704485">6043704485</a></td>
         <td><a href="#"></a></td>
       </tr>
@@ -94,13 +94,13 @@ layout: default
       </tr>
       <tr>
         <td>Ginger</td>
-        <td>Restaurants</td>
+        <td>Restaurant</td>
         <td><a href="tel:+16043701300">6043701300</a></td>
         <td><a href="#"></a></td>
       </tr>
       <tr>
         <td>Himalaya</td>
-        <td>Restaurants</td>
+        <td>Restaurant</td>
         <td><a href="tel:+16042472252">6042472252</a></td>
         <td><a href="https://himalayarest.com/location/richmond/">Website</a></td>
       </tr>
@@ -166,7 +166,7 @@ layout: default
       </tr>
       <tr>
         <td>Richmond Pizza</td>
-        <td>Restaurants</td>
+        <td>Restaurant</td>
         <td><a href="tel:+16042707777">6042707777</a></td>
         <td><a href="https://www.richmondpizzano5.ca/">Website</a></td>
       </tr>
