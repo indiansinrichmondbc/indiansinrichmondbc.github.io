@@ -171,10 +171,10 @@ layout: default
         <td><a href="https://www.richmondpizzano5.ca/">Website</a></td>
       </tr>
       <tr>
-        <td>Sabji Mandi</td>
+        <td>Sabzi Mandi</td>
         <td>Grocery</td>
         <td><a href="tel:+16042852400">6042852400</a></td>
-        <td><a href="http://sabzimandicanada.com/"></a>Website</td>
+        <td><a href="http://sabzimandicanada.com/">Website</a></td>
       </tr>
       <tr>
         <td>Seraphim Builders</td>
