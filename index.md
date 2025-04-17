@@ -225,6 +225,28 @@ layout: default
 </div>
 </div>
 
+<section id="about-us">
+  <h2>About Us</h2>
+  <p>We're a vibrant and diverse community of Indians residing in Richmond, BC. Our mission is to foster connections, share resources, and celebrate our rich cultural heritage together.</p>
+</section>
+
+<section id="get-involved">
+  <h2>Get Involved</h2>
+  <p>🌟 <strong>Projects</strong>: Explore our open-source projects and contribute your skills and ideas to make a difference in our community.</p>
+  <p>🤝 <strong>Collaborate</strong>: We're always looking for collaborators! Whether you're a developer, designer, writer, or enthusiast, there's a place for you here.</p>
+  <p>💬 <strong>Discussions</strong>: Join the conversation! Share your thoughts, ask questions, and connect with fellow community members in our discussions.</p>
+</section>
+
+<section id="connect-with-us">
+  <h2>Connect With Us</h2>
+  <p>📱 <strong>Social Media</strong>: Join us on <a href="https://www.facebook.com/groups/900644660267654">Facebook</a> for latest updates and announcements.</p>
+</section>
+
+<section id="lets-build-together">
+  <h2>Let's Build Together</h2>
+  <p>Join us on our journey to strengthen and grow the Richmond Indian community on GitHub and beyond. Together, we can create meaningful impact and foster a welcoming environment for all. Happy coding! 🚀</p>
+</section>
+
 <script>
   function sortTable(columnIndex) {
     var table, rows, switching, i, x, y, shouldSwitch;
