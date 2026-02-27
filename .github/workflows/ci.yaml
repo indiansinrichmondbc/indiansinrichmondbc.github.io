@@ -1,18 +1,17 @@
 on:
   push:
+    branches: ["master"]
   pull_request:
-    types: [opened, synchronize]
+    branches: ["master"]
 jobs:
   build:
-    runs-on: ubuntu-latest
-    name: script/cibuild
+    runs-on: ubuntu-22.04
+    name: Build and Test
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2
+          ruby-version: '3.1'
           bundler-cache: true
-      - name: build
-        run: script/bootstrap
-      - name: test
-        run: script/cibuild
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
