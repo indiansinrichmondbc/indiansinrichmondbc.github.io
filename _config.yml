@@ -4,3 +4,5 @@ description: "Your go-to online directory for Indian businesses, services, and c
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
