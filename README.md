@@ -33,7 +33,7 @@ Alternatively, you can click the **"Add/edit/request contacts"** button on the w
 ## 📱 Connect With Us
 
 * Join our vibrant community on [Facebook](https://www.facebook.com/groups/900644660267654)
-* Join our [WhatsApp Group](https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5)
+* Join our [WhatsApp Group](https://chat.whatsapp.com/EN5FnmJ9L62IYT3iKOckdJ)
 * Follow us on [Instagram](https://www.instagram.com/indiansinrichmondbc)
 
 Let's build and strengthen our community together!
