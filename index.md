@@ -40,7 +40,18 @@ layout: default
     <button class="filter-pill" data-category="mortgage">Mortgage</button>
   </div>
 
-  <div class="business-grid" id="business-grid">
+  <div class="content-with-sidebar">
+    <aside class="sidebar">
+      <a href="https://www.facebook.com/groups/900644660267654"><img src="/assets/img/logo.png" alt="Logo" style="max-width: 150px; margin-bottom: 20px;" /></a>
+      <ul class="contactus" style="list-style: none; padding: 0;">
+        <li style="padding-bottom: 10px;"><a href="https://www.facebook.com/groups/900644660267654" target="_blank" class="btn btn-primary"><img src="/assets/img/facebook.svg" alt="Facebook Icon" width="24" height="24" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Facebook</strong></a></li>
+        <li style="padding-bottom: 10px;"><a href="https://chat.whatsapp.com/EN5FnmJ9L62IYT3iKOckdJ" target="_blank" class="btn btn-success"><img src="/assets/img/whatsapp.svg" alt="WhatsApp Icon" width="24" height="24" style="vertical-align: middle;"> <strong style="vertical-align: middle;">WhatsApp</strong></a></li>
+        <li style="padding-bottom: 10px;"><a href="https://www.instagram.com/indiansinrichmondbc" target="_blank" class="btn btn-success"><img src="/assets/img/instagram.svg" alt="Instagram Icon" width="24" height="24" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Instagram</strong></a></li>
+        <li style="padding-bottom: 10px;"><a href="https://www.facebook.com/groups/900644660267654/events" target="_blank" class="btn btn-info"><img src="/assets/img/calendar.svg" alt="Events Icon" width="24" height="24" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Events</strong></a></li>
+      </ul>
+    </aside>
+
+    <div class="business-grid" id="business-grid">
     <div class="business-card" data-name="Best Bite" data-category="restaurant" data-contact="6043704949">
       <div class="card-header">
         <h4 class="business-name">Best Bite</h4>
@@ -467,35 +478,40 @@ layout: default
     </div>
 
   </div>
+  </div>
 </div>
 
 <div class="fullwidth-section" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-bottom: 40px;">
   <section id="about-us" class="expand-section" style="max-width: 250px; min-width: 200px; padding: 20px 10px; flex: 1 1 0;">
     <h2 class="expand-header" style="cursor: pointer;">About Us</h2>
     <div class="section-content" style="display: none;">
-      <p>We're a vibrant Indian community in Richmond, BC connecting & celebrating our heritage.</p>
+      <p>We are a welcoming Indian community in Richmond, BC that celebrates culture, food, and togetherness.</p>
+      <p><strong>Meet us</strong>: <a href="https://adi-cal.vercel.app/" target="_blank">Community calendar</a> for scheduling meeting.</p>
     </div>
   </section>
 
   <section id="get-involved" class="expand-section" style="max-width: 250px; min-width: 200px; padding: 20px 10px; flex: 1 1 0;">
     <h2 class="expand-header" style="cursor: pointer;">Get Involved</h2>
     <div class="section-content" style="display: none;">
-      <p><strong>Projects</strong>: Contribute, learn, make a difference.</p>
-      <p><strong>Collaborate</strong>: All skills welcome!</p>
+      <p><strong>Projects</strong>: Share ideas, contribute, and help the community grow.</p>
+      <p><strong>Collaborate</strong>: All skills are welcome.</p>
+      <p>Help improve the site on <a href="https://github.com/indiansinrichmondbc/indiansinrichmondbc.github.io" target="_blank">GitHub</a>.</p>
     </div>
   </section>
 
   <section id="connect-with-us" class="expand-section" style="max-width: 250px; min-width: 200px; padding: 20px 10px; flex: 1 1 0;">
     <h2 class="expand-header" style="cursor: pointer;">Connect</h2>
     <div class="section-content" style="display: none;">
-      <p><a href="https://www.facebook.com/groups/900644660267654">Facebook</a> for updates.</p>
+      <p>Join our <a href="https://www.facebook.com/groups/900644660267654">Facebook</a> group for announcements.</p>
+      <p>Check the <a href="https://www.facebook.com/groups/900644660267654/events" target="_blank">meetups and events</a> calendar.</p>
     </div>
   </section>
 
   <section id="lets-build-together" class="expand-section" style="max-width: 250px; min-width: 200px; padding: 20px 10px; flex: 1 1 0;">
     <h2 class="expand-header" style="cursor: pointer;">Let's Build Together</h2>
     <div class="section-content" style="display: none;">
-      <p>Grow with us on GitHub & beyond. Happy coding!</p>
+      <p>Grow with us on GitHub and beyond. Happy coding!</p>
+      <p>Contribute here: <a href="https://github.com/indiansinrichmondbc/indiansinrichmondbc.github.io" target="_blank">indiansinrichmondbc.github.io</a>.</p>
     </div>
   </section>
 </div>
