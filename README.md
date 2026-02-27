@@ -1,23 +1,39 @@
-# Welcome to the Richmond Indian Community GitHub Profile! 👋
+# Indians in Richmond, BC - Community Directory
 
-We're delighted to have you here! Our GitHub profile serves as a central hub for our community's projects, initiatives, and collaborations. Whether you're a newcomer or a long-time member, there's something for everyone to explore and contribute to.
+Welcome to the source code for the [Indians in Richmond, BC](https://indiansinrichmondbc.github.io/) community directory website.
 
-## About Us
+This website serves as a central, go-to online portal for discovering Indian businesses, services, and cultural hotspots in Richmond, British Columbia.
 
-We're a vibrant and diverse community of Indians residing in Richmond, BC. Our mission is to foster connections, share resources, and celebrate our rich cultural heritage together.
+## 🚀 Local Development
 
-## Get Involved
+This website is built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages. To run the site locally:
 
-🌟 **Projects**: Explore our open-source projects and contribute your skills and ideas to make a difference in our community.
+1. Make sure you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed.
+2. Clone this repository.
+3. Install the dependencies:
+   ```bash
+   bundle install
+   ```
+4. Start the local development server:
+   ```bash
+   bundle exec jekyll serve
+   ```
+5. Open `http://localhost:4000/` in your browser.
 
-🤝 **Collaborate**: We're always looking for collaborators! Whether you're a developer, designer, writer, or enthusiast, there's a place for you here.
+## 🤝 Contributing
 
-💬 **Discussions**: Join the conversation! Share your thoughts, ask questions, and connect with fellow community members in our discussions.
+We welcome contributions from the community! If you'd like to add a new business, update an existing listing, or improve the website's design:
 
-## Connect With Us
+1. Fork this repository.
+2. Make your changes. The directory listings are located in the main `index.md` file, and custom styling is in `assets/css/style.scss`.
+3. Submit a Pull Request.
 
-📱 **Social Media**: Join us on [Facebook](https://www.facebook.com/groups/900644660267654) for latest updates and announcements.
+Alternatively, you can click the **"Add/edit/request contacts"** button on the website to contact us directly.
 
-## Let's Build Together
+## 📱 Connect With Us
 
-Join us on our journey to strengthen and grow the Richmond Indian community on GitHub and beyond. Together, we can create meaningful impact and foster a welcoming environment for all. Happy coding! 🚀
+* Join our vibrant community on [Facebook](https://www.facebook.com/groups/900644660267654)
+* Join our [WhatsApp Group](https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5)
+* Follow us on [Instagram](https://www.instagram.com/indiansinrichmondbc)
+
+Let's build and strengthen our community together!

@@ -2,3 +2,79 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+table#yellow-pages {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #e1e4e8;
+}
+
+table#yellow-pages th,
+table#yellow-pages td {
+    padding: 16px 20px;
+    text-align: left;
+    border-bottom: 1px solid #eaecef;
+}
+
+table#yellow-pages thead tr {
+    background-color: #f6f8fa;
+    color: #24292e;
+    font-weight: 600;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+table#yellow-pages tbody tr {
+    transition: background-color 0.15s ease-in-out;
+}
+
+table#yellow-pages tbody tr:hover {
+    background-color: #f1f8ff;
+}
+
+table#yellow-pages tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Subtle Website Effects */
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.wrapper {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.btn {
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Table row transition already exists, but let's make it silkier */
+table#yellow-pages tbody tr {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+table#yellow-pages tbody tr:hover {
+    transform: scale(1.005);
+}

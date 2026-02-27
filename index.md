@@ -4,7 +4,7 @@ layout: default
 
 <div class="container">
   <div class="intro">
-    <h3 style="text-align: center;">The Best of Indian Community and Businesses in Richmond</h3>
+    <h3>Indians in Richmond, BC</h3>
   </div>
 
   <div id="filter" style="text-align: right; padding-bottom: 10px;">
@@ -31,8 +31,8 @@ layout: default
   <table id="yellow-pages">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Category</th>
+        <th onclick="sortTable(0)" style="cursor: pointer;" title="Sort by Name">Name <small>↕</small></th>
+        <th onclick="sortTable(1)" style="cursor: pointer;" title="Sort by Category">Category <small>↕</small></th>
         <th>Contact</th>
         <th>Email/Website</th>
       </tr>
