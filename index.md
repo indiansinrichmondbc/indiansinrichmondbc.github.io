@@ -5,226 +5,467 @@ layout: default
 <div class="container">
   <div class="intro">
     <h3>Indians in Richmond, BC</h3>
+    <a href="mailto:adichourasiya@gmail.com" class="add-listing-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+      Add Listing
+    </a>
   </div>
 
-  <div id="filter" style="text-align: right; padding-bottom: 10px;">
-    <label for="category-filter">Category:</label>
-    <select id="category-filter">
-      <option value="all">All Categories</option>
-      <option value="dentist">Dentist</option>
-      <option value="education">Education</option>
-      <option value="garage coating">Garage Coating</option>
-      <option value="gurdwara">Gurdwara</option>
-      <option value="handyman">Handyman</option>
-      <option value="insurance">Insurance</option>
-      <option value="movers">Movers</option>
-      <option value="painter">Painter</option>
-      <option value="rentals">Rentals</option>
-      <option value="realtor">Realtor</option>
-      <option value="Restaurant">Restaurant</option>
-      <option value="rv rentals">RV Rentals</option>
-      <option value="sports">Sports</option>
-      <option value="temple">Temple</option>
-    </select>
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search businesses...">
   </div>
 
-  <table id="yellow-pages">
-    <thead>
-      <tr>
-        <th onclick="sortTable(0)" style="cursor: pointer;" title="Sort by Name">Name <small>↕</small></th>
-        <th onclick="sortTable(1)" style="cursor: pointer;" title="Sort by Category">Category <small>↕</small></th>
-        <th>Contact</th>
-        <th>Email/Website</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Best Bite</td>
-        <td>Restaurant</td>
-        <td><a href="tel:+16043704949">6043704949</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>Biryani Bhai</td>
-        <td>Restaurant</td>
-        <td><a href="tel:+17782976961">7782976961</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>Bhullar Wrestling Club</td>
-        <td>Education</td>
-        <td></td>
-        <td><a href="https://www.Facebook.com/BhullarWrestlingClub/">Facebook</a></td>
-      </tr>
-      <tr>
-        <td>Sudnya Dance Academy</td>
-        <td>Education</td>
-        <td></td>
-        <td><a href="https://www.Facebook.com/SudnyaDanceAcademy" target="_blank">Facebook</a></td>
-      </tr>
-      <tr>
-        <td>Dr Sanju John</td>
-        <td>Dentist</td>
-        <td><a href="tel:+17782516592">7782516592</a></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Ember Kitchen</td>
-        <td>Restaurant</td>
-        <td><a href="tel:+16043704485">6043704485</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>Crown</td>
-        <td>Garage Coating</td>
-        <td><a href="tel:+16044452857">6044452857</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>Exotic International</td>
-        <td>Grocery</td>
-        <td><a href="tel:+16044475228">6044475228</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>Fruiticana</td>
-        <td>Grocery</td>
-        <td><a href="tel:+16042449520">6042449520</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>Ginger</td>
-        <td>Restaurant</td>
-        <td><a href="tel:+16043701300">6043701300</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>Himalaya</td>
-        <td>Restaurant</td>
-        <td><a href="tel:+16042472252">6042472252</a></td>
-        <td><a href="https://himalayarest.com/location/richmond/">Website</a></td>
-      </tr>
-      <tr>
-        <td>Hindi Classes at Temple</td>
-        <td>Education</td>
-        <td></td>
-        <td><a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5" target="_blank">WhatsApp</a></td>
-      </tr>
-      <tr>
-        <td>Joe & Joe</td>
-        <td>Realtor</td>
-        <td><a href="tel:+17788699091">7788699091</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>Fair</td>
-        <td>Movers</td>
-        <td><a href="tel:+16043490777">6043490777</a></td>
-        <td><a href="https://www.fairmovers.ca/">Website</a></td>
-      </tr>
-      <tr>
-        <td>Murugan</td>
-        <td>Temple</td>
-        <td><a href="tel:+16042317649">6042317649</a></td>
-        <td><a href="https://richmondmurugantemple.org">Website</a></td>
-      </tr>
-      <tr>
-        <td>Naman Nagpaul</td>
-        <td>Realtor</td>
-        <td><a href="tel:+17788460747">7788460747</a></td>
-        <td><a href="https://www.Facebook.com/namannagpaul1">Facebook</a></td>
-      </tr>
-      <tr>
-        <td>Nanak Niwas Gurdwara</td>
-        <td>Gurdwara</td>
-        <td><a href="tel:+16042747479">6042747479</a></td>
-        <td><a href="https://nanakniwas.ca/">Website</a></td>
-      </tr>
-      <tr>
-        <td>Nanaksar Gurdwara</td>
-        <td>Gurdwara</td>
-        <td><a href="tel:+16042707369">6042707369</a></td>
-        <td><a href="https://www.Facebook.com/nanaksarrichmond/">Facebook</a></td>
-      </tr>
-      <tr>
-        <td>Navjot Gahley</td>
-        <td>Insurance</td>
-        <td><a href="tel:+17787884464">7787884464</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>Phoenix</td>
-        <td>Sports</td>
-        <td><a href="tel:+"></a></td>
-        <td><a href="https://www.Facebook.com/phoenix.richmond.malayalee">Facebook</a></td>
-      </tr>
-      <tr>
-        <td>Poonam Maheshwari</td>
-        <td>Mortgage</td>
-        <td><a href="tel:+16047499401">6047499401</a></td>
-        <td><a href="mailto: poonam.maheshwari@rbc.com">Email</a></td>
-      </tr>
-      <tr>
-        <td>Richmond Pizza</td>
-        <td>Restaurant</td>
-        <td><a href="tel:+16042707777">6042707777</a></td>
-        <td><a href="https://www.richmondpizzano5.ca/">Website</a></td>
-      </tr>
-      <tr>
-        <td>Sabzi Mandi</td>
-        <td>Grocery</td>
-        <td><a href="tel:+16042852400">6042852400</a></td>
-        <td><a href="http://sabzimandicanada.com/">Website</a></td>
-      </tr>
-      <tr>
-        <td>Seraphim Builders</td>
-        <td>Handyman</td>
-        <td><a href="tel:+17783868384">7783868384</a></td>
-        <td><a href=""></a></td>
-      </tr>
-      <tr>
-        <td>Sigma House</td>
-        <td>Rentals</td>
-        <td><a href="tel:+16047890069">6047890069</a></td>
-        <td><a href=""></a></td>
-      </tr>
-      <tr>
-        <td>Sommi</td>
-        <td>Realtor</td>
-        <td><a href="tel:+17783186693">7783186693</a></td>
-        <td><a href="mailto:choiandcorealty@gmail.com">Email</a></td>
-      </tr>
-      <tr>
-        <td>Subramaniya Swamy</td>
-        <td>Temple</td>
-        <td><a href="tel:+16042747906">6042747906</a></td>
-        <td><a href="https://www.subramaniyaswamytemple.ca/">Website</a></td>
-      </tr>
-      <tr>
-        <td>Vedic Hindu</td>
-        <td>Temple</td>
-        <td><a href="tel:+16042759182">6042759182</a></td>
-        <td><a href="#"></a></td>
-      </tr>
-      <tr>
-        <td>UCMAS</td>
-        <td>Education</td>
-        <td><a href="tel:+16042487575">6042487575</a></td>
-        <td><a href="https://www.Facebook.com/UCMASBCRichmond">Facebook</a></td>
-      </tr>
-      <tr>
-          <td>Yatra Rentals</td>
-          <td>RV Rentals</td>
-          <td><a href="tel:+12363300741">2363300741</a></td>
-          <td><a href="https://www.Facebook.com/YatraRVRentals">Facebook</a></td>
-      </tr>
-  </tbody>
-</table>
-<div style="text-align: center;">
-  <p><a href="mailto:adichourasiya@gmail.com" class="btn btn-info"><img src="/assets/img/gmail.svg" alt="Email Icon" width="24" height="24"> <strong>Add/edit/request contacts</strong></a></p>
-</div>
+  <div class="filter-container">
+    <button class="filter-pill active" data-category="all">All</button>
+    <button class="filter-pill" data-category="dentist">Dentist</button>
+    <button class="filter-pill" data-category="education">Education</button>
+    <button class="filter-pill" data-category="garage coating">Garage Coating</button>
+    <button class="filter-pill" data-category="gurdwara">Gurdwara</button>
+    <button class="filter-pill" data-category="handyman">Handyman</button>
+    <button class="filter-pill" data-category="insurance">Insurance</button>
+    <button class="filter-pill" data-category="movers">Movers</button>
+    <button class="filter-pill" data-category="painter">Painter</button>
+    <button class="filter-pill" data-category="rentals">Rentals</button>
+    <button class="filter-pill" data-category="realtor">Realtor</button>
+    <button class="filter-pill" data-category="restaurant">Restaurant</button>
+    <button class="filter-pill" data-category="rv rentals">RV Rentals</button>
+    <button class="filter-pill" data-category="sports">Sports</button>
+    <button class="filter-pill" data-category="temple">Temple</button>
+    <button class="filter-pill" data-category="grocery">Grocery</button>
+    <button class="filter-pill" data-category="mortgage">Mortgage</button>
+  </div>
+
+  <div class="business-grid" id="business-grid">
+    
+    <div class="business-card" data-name="Best Bite" data-category="restaurant" data-contact="6043704949">
+      <div class="card-header">
+        <h4 class="business-name">Best Bite</h4>
+        <span class="category-badge category-restaurant">Restaurant</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16043704949">6043704949</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Biryani Bhai" data-category="restaurant" data-contact="7782976961">
+      <div class="card-header">
+        <h4 class="business-name">Biryani Bhai</h4>
+        <span class="category-badge category-restaurant">Restaurant</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+17782976961">7782976961</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Bhullar Wrestling Club" data-category="education" data-contact="">
+      <div class="card-header">
+        <h4 class="business-name">Bhullar Wrestling Club</h4>
+        <span class="category-badge category-education">Education</span>
+      </div>
+      <div class="card-details">
+        <div class="card-links">
+          <a href="https://www.Facebook.com/BhullarWrestlingClub/" target="_blank" class="card-link">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Sudnya Dance Academy" data-category="education" data-contact="">
+      <div class="card-header">
+        <h4 class="business-name">Sudnya Dance Academy</h4>
+        <span class="category-badge category-education">Education</span>
+      </div>
+      <div class="card-details">
+        <div class="card-links">
+          <a href="https://www.Facebook.com/SudnyaDanceAcademy" target="_blank" class="card-link">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Dr Sanju John" data-category="dentist" data-contact="7782516592">
+      <div class="card-header">
+        <h4 class="business-name">Dr Sanju John</h4>
+        <span class="category-badge category-dentist">Dentist</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+17782516592">7782516592</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Ember Kitchen" data-category="restaurant" data-contact="6043704485">
+      <div class="card-header">
+        <h4 class="business-name">Ember Kitchen</h4>
+        <span class="category-badge category-restaurant">Restaurant</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16043704485">6043704485</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Crown" data-category="garage coating" data-contact="6044452857">
+      <div class="card-header">
+        <h4 class="business-name">Crown</h4>
+        <span class="category-badge category-garage-coating">Garage Coating</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16044452857">6044452857</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Exotic International" data-category="grocery" data-contact="6044475228">
+      <div class="card-header">
+        <h4 class="business-name">Exotic International</h4>
+        <span class="category-badge category-grocery">Grocery</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16044475228">6044475228</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Fruiticana" data-category="grocery" data-contact="6042449520">
+      <div class="card-header">
+        <h4 class="business-name">Fruiticana</h4>
+        <span class="category-badge category-grocery">Grocery</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042449520">6042449520</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Ginger" data-category="restaurant" data-contact="6043701300">
+      <div class="card-header">
+        <h4 class="business-name">Ginger</h4>
+        <span class="category-badge category-restaurant">Restaurant</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16043701300">6043701300</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Himalaya" data-category="restaurant" data-contact="6042472252">
+      <div class="card-header">
+        <h4 class="business-name">Himalaya</h4>
+        <span class="category-badge category-restaurant">Restaurant</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042472252">6042472252</a>
+        </div>
+        <div class="card-links">
+          <a href="https://himalayarest.com/location/richmond/" target="_blank" class="card-link">Website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Hindi Classes at Temple" data-category="education" data-contact="">
+      <div class="card-header">
+        <h4 class="business-name">Hindi Classes at Temple</h4>
+        <span class="category-badge category-education">Education</span>
+      </div>
+      <div class="card-details">
+        <div class="card-links">
+          <a href="https://chat.whatsapp.com/GnJPe7uFS2eCZqMkEG1EK5" target="_blank" class="card-link">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Joe & Joe" data-category="realtor" data-contact="7788699091">
+      <div class="card-header">
+        <h4 class="business-name">Joe & Joe</h4>
+        <span class="category-badge category-realtor">Realtor</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+17788699091">7788699091</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Fair Movers" data-category="movers" data-contact="6043490777">
+      <div class="card-header">
+        <h4 class="business-name">Fair Movers</h4>
+        <span class="category-badge category-movers">Movers</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16043490777">6043490777</a>
+        </div>
+        <div class="card-links">
+          <a href="https://www.fairmovers.ca/" target="_blank" class="card-link">Website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Murugan Temple" data-category="temple" data-contact="6042317649">
+      <div class="card-header">
+        <h4 class="business-name">Murugan Temple</h4>
+        <span class="category-badge category-temple">Temple</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042317649">6042317649</a>
+        </div>
+        <div class="card-links">
+          <a href="https://richmondmurugantemple.org" target="_blank" class="card-link">Website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Naman Nagpaul" data-category="realtor" data-contact="7788460747">
+      <div class="card-header">
+        <h4 class="business-name">Naman Nagpaul</h4>
+        <span class="category-badge category-realtor">Realtor</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+17788460747">7788460747</a>
+        </div>
+        <div class="card-links">
+          <a href="https://www.Facebook.com/namannagpaul1" target="_blank" class="card-link">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Nanak Niwas Gurdwara" data-category="gurdwara" data-contact="6042747479">
+      <div class="card-header">
+        <h4 class="business-name">Nanak Niwas Gurdwara</h4>
+        <span class="category-badge category-gurdwara">Gurdwara</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042747479">6042747479</a>
+        </div>
+        <div class="card-links">
+          <a href="https://nanakniwas.ca/" target="_blank" class="card-link">Website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Nanaksar Gurdwara" data-category="gurdwara" data-contact="6042707369">
+      <div class="card-header">
+        <h4 class="business-name">Nanaksar Gurdwara</h4>
+        <span class="category-badge category-gurdwara">Gurdwara</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042707369">6042707369</a>
+        </div>
+        <div class="card-links">
+          <a href="https://www.Facebook.com/nanaksarrichmond/" target="_blank" class="card-link">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Navjot Gahley" data-category="insurance" data-contact="7787884464">
+      <div class="card-header">
+        <h4 class="business-name">Navjot Gahley</h4>
+        <span class="category-badge category-insurance">Insurance</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+17787884464">7787884464</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Phoenix" data-category="sports" data-contact="">
+      <div class="card-header">
+        <h4 class="business-name">Phoenix</h4>
+        <span class="category-badge category-sports">Sports</span>
+      </div>
+      <div class="card-details">
+        <div class="card-links">
+          <a href="https://www.Facebook.com/phoenix.richmond.malayalee" target="_blank" class="card-link">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Poonam Maheshwari" data-category="mortgage" data-contact="6047499401">
+      <div class="card-header">
+        <h4 class="business-name">Poonam Maheshwari</h4>
+        <span class="category-badge category-mortgage">Mortgage</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16047499401">6047499401</a>
+        </div>
+        <div class="card-links">
+          <a href="mailto:poonam.maheshwari@rbc.com" class="card-link">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Richmond Pizza" data-category="restaurant" data-contact="6042707777">
+      <div class="card-header">
+        <h4 class="business-name">Richmond Pizza</h4>
+        <span class="category-badge category-restaurant">Restaurant</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042707777">6042707777</a>
+        </div>
+        <div class="card-links">
+          <a href="https://www.richmondpizzano5.ca/" target="_blank" class="card-link">Website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Sabzi Mandi" data-category="grocery" data-contact="6042852400">
+      <div class="card-header">
+        <h4 class="business-name">Sabzi Mandi</h4>
+        <span class="category-badge category-grocery">Grocery</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042852400">6042852400</a>
+        </div>
+        <div class="card-links">
+          <a href="http://sabzimandicanada.com/" target="_blank" class="card-link">Website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Seraphim Builders" data-category="handyman" data-contact="7783868384">
+      <div class="card-header">
+        <h4 class="business-name">Seraphim Builders</h4>
+        <span class="category-badge category-handyman">Handyman</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+17783868384">7783868384</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Sigma House" data-category="rentals" data-contact="6047890069">
+      <div class="card-header">
+        <h4 class="business-name">Sigma House</h4>
+        <span class="category-badge category-rentals">Rentals</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16047890069">6047890069</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Sommi" data-category="realtor" data-contact="7783186693">
+      <div class="card-header">
+        <h4 class="business-name">Sommi</h4>
+        <span class="category-badge category-realtor">Realtor</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+17783186693">7783186693</a>
+        </div>
+        <div class="card-links">
+          <a href="mailto:choiandcorealty@gmail.com" class="card-link">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Subramaniya Swamy Temple" data-category="temple" data-contact="6042747906">
+      <div class="card-header">
+        <h4 class="business-name">Subramaniya Swamy Temple</h4>
+        <span class="category-badge category-temple">Temple</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042747906">6042747906</a>
+        </div>
+        <div class="card-links">
+          <a href="https://www.subramaniyaswamytemple.ca/" target="_blank" class="card-link">Website</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Vedic Hindu" data-category="temple" data-contact="6042759182">
+      <div class="card-header">
+        <h4 class="business-name">Vedic Hindu</h4>
+        <span class="category-badge category-temple">Temple</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042759182">6042759182</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="UCMAS" data-category="education" data-contact="6042487575">
+      <div class="card-header">
+        <h4 class="business-name">UCMAS</h4>
+        <span class="category-badge category-education">Education</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+16042487575">6042487575</a>
+        </div>
+        <div class="card-links">
+          <a href="https://www.Facebook.com/UCMASBCRichmond" target="_blank" class="card-link">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-card" data-name="Yatra Rentals" data-category="rv rentals" data-contact="2363300741">
+      <div class="card-header">
+        <h4 class="business-name">Yatra Rentals</h4>
+        <span class="category-badge category-rv-rentals">RV Rentals</span>
+      </div>
+      <div class="card-details">
+        <div class="card-contact">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <a href="tel:+12363300741">2363300741</a>
+        </div>
+        <div class="card-links">
+          <a href="https://www.Facebook.com/YatraRVRentals" target="_blank" class="card-link">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 
+<div class="fullwidth-section">
 <section id="about-us">
   <h2>About Us</h2>
   <p>We're a vibrant and diverse community of Indians residing in Richmond, BC. Our mission is to foster connections, share resources, and celebrate our rich cultural heritage together.</p>
@@ -232,55 +473,72 @@ layout: default
 
 <section id="get-involved">
   <h2>Get Involved</h2>
-  <p>🌟 <strong>Projects</strong>: Explore our open-source projects and contribute your skills and ideas to make a difference in our community.</p>
-  <p>🤝 <strong>Collaborate</strong>: We're always looking for collaborators! Whether you're a developer, designer, writer, or enthusiast, there's a place for you here.</p>
-  <p>💬 <strong>Discussions</strong>: Join the conversation! Share your thoughts, ask questions, and connect with fellow community members in our discussions.</p>
+  <p><strong>Projects</strong>: Explore our open-source projects and contribute your skills and ideas to make a difference in our community.</p>
+  <p><strong>Collaborate</strong>: We're always looking for collaborators! Whether you're a developer, designer, writer, or enthusiast, there's a place for you here.</p>
+  <p><strong>Discussions</strong>: Join the conversation! Share your thoughts, ask questions, and connect with fellow community members in our discussions.</p>
 </section>
 
 <section id="connect-with-us">
   <h2>Connect With Us</h2>
-  <p>📱 <strong>Social Media</strong>: Join us on <a href="https://www.facebook.com/groups/900644660267654">Facebook</a> for latest updates and announcements.</p>
+  <p><strong>Social Media</strong>: Join us on <a href="https://www.facebook.com/groups/900644660267654">Facebook</a> for latest updates and announcements.</p>
 </section>
 
 <section id="lets-build-together">
   <h2>Let's Build Together</h2>
-  <p>Join us on our journey to strengthen and grow the Richmond Indian community on GitHub and beyond. Together, we can create meaningful impact and foster a welcoming environment for all. Happy coding! 🚀</p>
+  <p>Join us on our journey to strengthen and grow the Richmond Indian community on GitHub and beyond. Together, we can create meaningful impact and foster a welcoming environment for all. Happy coding!</p>
 </section>
+</div>
 
 <script>
-  function sortTable(columnIndex) {
-    var table, rows, switching, i, x, y, shouldSwitch;
-    table = document.getElementById("yellow-pages");
-    switching = true;
-    while (switching) {
-      switching = false;
-      rows = table.rows;
-      for (i = 1; i < (rows.length - 1); i++) {
-        shouldSwitch = false;
-        x = rows[i].getElementsByTagName("td")[columnIndex];
-        y = rows[i + 1].getElementsByTagName("td")[columnIndex];
-        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-          shouldSwitch = true;
-          break;
-        }
+  const searchInput = document.getElementById('search-input');
+  const cards = document.querySelectorAll('.business-card');
+  const filterPills = document.querySelectorAll('.filter-pill');
+  let currentCategory = 'all';
+
+  function filterCards() {
+    const searchTerm = searchInput.value.toLowerCase();
+    
+    cards.forEach(card => {
+      const name = card.dataset.name.toLowerCase();
+      const category = card.dataset.category.toLowerCase();
+      const contact = card.dataset.contact || '';
+      
+      const matchesSearch = name.includes(searchTerm) || 
+                           category.includes(searchTerm) || 
+                           contact.includes(searchTerm);
+      const matchesCategory = currentCategory === 'all' || 
+                              category === currentCategory;
+      
+      if (matchesSearch && matchesCategory) {
+        card.classList.remove('hidden');
+      } else {
+        card.classList.add('hidden');
       }
-      if (shouldSwitch) {
-        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        switching = true;
+    });
+    
+    const visibleCards = document.querySelectorAll('.business-card:not(.hidden)');
+    let noResults = document.getElementById('no-results');
+    if (visibleCards.length === 0) {
+      if (!noResults) {
+        noResults = document.createElement('div');
+        noResults.id = 'no-results';
+        noResults.className = 'no-results';
+        noResults.textContent = 'No businesses found. Try a different search or category.';
+        document.getElementById('business-grid').appendChild(noResults);
       }
+    } else if (noResults) {
+      noResults.remove();
     }
   }
 
-  document.getElementById("category-filter").addEventListener("change", function() {
-    var category = this.value;
-    var rows = document.getElementById("yellow-pages").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
-    for (var i = 0; i < rows.length; i++) {
-      var categoryCell = rows[i].getElementsByTagName("td")[1];
-      if (category === "all" || categoryCell.textContent.toLowerCase() === category) {
-        rows[i].style.display = "";
-      } else {
-        rows[i].style.display = "none";
-      }
-    }
+  searchInput.addEventListener('input', filterCards);
+
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      filterPills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      currentCategory = pill.dataset.category;
+      filterCards();
+    });
   });
 </script>
