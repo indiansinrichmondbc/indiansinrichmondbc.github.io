@@ -485,8 +485,10 @@ layout: default
   <section id="about-us" class="expand-section" style="max-width: 250px; min-width: 200px; padding: 20px 10px; flex: 1 1 0;">
     <h2 class="expand-header" style="cursor: pointer;">About Us</h2>
     <div class="section-content" style="display: none;">
-      <p>We are a welcoming Indian community in Richmond, BC that celebrates culture, food, and togetherness.</p>
-      <p><strong>Meet us</strong>: <a href="https://adi-cal.vercel.app/" target="_blank">Community calendar</a> for scheduling meeting.</p>
+      <p>We are Indian community in Richmond, BC that celebrates culture, food, and togetherness.</p>
+      <p>
+        <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/terms.html">Terms of Service</a>
+      </p>
     </div>
   </section>
 
