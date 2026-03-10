@@ -530,8 +530,22 @@ table#yellow-pages {
   color: #b91c1c;
 }
 
+.library-drive-note {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #475569;
+}
+
 .library-hidden {
   display: none;
+}
+
+.library-drive-frame {
+  width: 100%;
+  min-height: 520px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #fff;
 }
 
 .library-file-panel {
@@ -595,5 +609,9 @@ table#yellow-pages {
 @media (max-width: 767px) {
   .library-grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .library-drive-frame {
+    min-height: 420px;
   }
 }

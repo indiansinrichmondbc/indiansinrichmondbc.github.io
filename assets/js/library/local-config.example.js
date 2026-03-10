@@ -1,6 +1,6 @@
-// Copy this file to `local-config.js` (ignored by git) and fill your values.
+// Copy this file to `local-config.js` (ignored by git) to override the default folder.
 // Do not commit `local-config.js`.
 window.LibraryLocalConfig = {
-  supabaseUrl: "https://YOUR_PROJECT_REF.supabase.co",
-  supabaseAnonKey: "YOUR_SUPABASE_ANON_KEY"
+  driveFolderUrl: "https://drive.google.com/drive/folders/YOUR_FOLDER_ID?usp=sharing",
+  driveFolderId: "YOUR_FOLDER_ID"
 };
