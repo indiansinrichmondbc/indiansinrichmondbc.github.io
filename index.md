@@ -494,6 +494,9 @@ permalink: /
     <div class="section-content" style="display: none;">
       <p>We are Indian community in Richmond, BC that celebrates culture, food, and togetherness.</p>
       <p>
+        <a href="https://github.com/indiansinrichmondbc/indiansinrichmondbc.github.io" target="_blank">GitHub Repository</a> &middot; <a href="/library/">Community Documents</a>
+      </p>
+      <p>
         <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/terms.html">Terms of Service</a>
       </p>
     </div>
@@ -513,6 +516,15 @@ permalink: /
     <div class="section-content" style="display: none;">
       <p>Join our <a href="https://www.facebook.com/groups/900644660267654">Facebook</a> group for announcements.</p>
       <p>Check the <a href="https://www.facebook.com/groups/900644660267654/events" target="_blank">meetups and events</a> calendar.</p>
+    </div>
+  </section>
+
+  <section id="community-documents" class="expand-section" style="max-width: 250px; min-width: 200px; padding: 20px 10px; flex: 1 1 0;">
+    <h2 class="expand-header" style="cursor: pointer;">Community Documents</h2>
+    <div class="section-content" style="display: none;">
+      <p>Access shared community files such as registration forms, bylaws, constitution notes, and event documents.</p>
+      <p><a href="https://drive.google.com/drive/folders/1Quiw9zk1ALPEZnxPfd-5iw0JvzLguVxt?usp=sharing" target="_blank">Open Google Drive Documents</a></p>
+      <p><a href="/library/">Open Library Page</a></p>
     </div>
   </section>
 
