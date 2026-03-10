@@ -1,8 +1,14 @@
-title: Indians in Richmond, BC
+title: Indians in Richmond BC
 logo: /assets/img/logo.png
-description: "Your go-to online directory for Indian businesses, services, and cultural hotspots in Richmond, BC."
+description: "Find Indian businesses, services, and cultural hotspots in Richmond, BC."
 show_downloads: true
 google_analytics:
+google_site_verification:
+url: "https://indiansinrichmondbc.github.io"
+baseurl: ""
+lang: en-CA
+timezone: America/Vancouver
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap

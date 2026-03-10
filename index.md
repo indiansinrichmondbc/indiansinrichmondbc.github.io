@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Indians in Richmond BC Directory
+description: Find Indian businesses, restaurants, services, and community resources in Richmond, BC.
+permalink: /
 ---
 
 <div class="container">
@@ -10,6 +13,10 @@ layout: default
   </div>
   
   <div class="intro">
+    <p class="seo-intro">
+      Indians in Richmond BC is a local community directory to help people discover Indian restaurants,
+      grocery stores, temples, realtors, movers, and other trusted services in Richmond, British Columbia.
+    </p>
     <a href="https://chat.whatsapp.com/EN5FnmJ9L62IYT3iKOckdJ" target="_blank" class="add-listing-btn">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
       Add Listing

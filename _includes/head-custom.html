@@ -3,6 +3,22 @@
 <!-- Setup Google Analytics -->
 {% include head-custom-google-analytics.html %}
 
+{% if site.google_site_verification and site.google_site_verification != "" %}
+<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{% endif %}
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"name": {{ site.title | jsonify }},
+	"url": {{ site.url | jsonify }},
+	"description": {{ site.description | jsonify }},
+	"inLanguage": "en-CA",
+	"about": "Indian community and businesses in Richmond, British Columbia"
+}
+</script>
+
 <!-- You can set your favicon here -->
 <!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
 
