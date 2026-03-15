@@ -8,23 +8,16 @@ permalink: /
 <div class="container">
   <div class="sticky-header">
     <div class="header-banner">
-      <h1 class="header-title"><img src="/assets/img/namaste.png" alt="Namaste" style="height: 1em; vertical-align: middle; margin-right: 8px;"> Indians in Richmond, BC</h1>
+      <h1 class="header-title"><img src="/assets/img/namaste.png" alt="Namaste" style="height: 2em; vertical-align: middle; margin-right: 8px;"> Indians in Richmond, BC</h1>
     </div>
   </div>
   
-  <div class="intro">
-    <p class="seo-intro">
-      Indians in Richmond BC is a local community directory to help people discover Indian restaurants,
-      grocery stores, temples, realtors, movers, and other trusted services in Richmond, British Columbia.
-    </p>
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search businesses...">
     <a href="https://chat.whatsapp.com/EN5FnmJ9L62IYT3iKOckdJ" target="_blank" class="add-listing-btn">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
       Add Listing
     </a>
-  </div>
-
-  <div class="search-container">
-    <input type="text" id="search-input" placeholder="Search businesses...">
   </div>
 
   <div class="filter-container">
@@ -33,15 +26,12 @@ permalink: /
     <button class="filter-pill" data-category="education">Education</button>
     <button class="filter-pill" data-category="garage coating">Garage Coating</button>
     <button class="filter-pill" data-category="gurdwara">Gurdwara</button>
-    <button class="filter-pill" data-category="handyman">Handyman</button>
     <button class="filter-pill" data-category="insurance">Insurance</button>
     <button class="filter-pill" data-category="movers">Movers</button>
-    <button class="filter-pill" data-category="painter">Painter</button>
     <button class="filter-pill" data-category="rentals">Rentals</button>
     <button class="filter-pill" data-category="realtor">Realtor</button>
     <button class="filter-pill" data-category="restaurant">Restaurant</button>
     <button class="filter-pill" data-category="rv rentals">RV Rentals</button>
-    <button class="filter-pill" data-category="sports">Sports</button>
     <button class="filter-pill" data-category="temple">Temple</button>
     <button class="filter-pill" data-category="grocery">Grocery</button>
     <button class="filter-pill" data-category="mortgage">Mortgage</button>
@@ -321,18 +311,6 @@ permalink: /
       </div>
     </div>
 
-    <div class="business-card" data-name="Phoenix" data-category="sports" data-contact="">
-      <div class="card-header">
-        <h4 class="business-name">Phoenix</h4>
-        <span class="category-badge category-sports">Sports</span>
-      </div>
-      <div class="card-details">
-        <div class="card-links">
-          <a href="https://www.Facebook.com/phoenix.richmond.malayalee" target="_blank" class="card-link">Facebook</a>
-        </div>
-      </div>
-    </div>
-
     <div class="business-card" data-name="Poonam Maheshwari" data-category="mortgage" data-contact="6047499401">
       <div class="card-header">
         <h4 class="business-name">Poonam Maheshwari</h4>
@@ -377,19 +355,6 @@ permalink: /
         </div>
         <div class="card-links">
           <a href="http://sabzimandicanada.com/" target="_blank" class="card-link">Website</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="business-card" data-name="Seraphim Builders" data-category="handyman" data-contact="7783868384">
-      <div class="card-header">
-        <h4 class="business-name">Seraphim Builders</h4>
-        <span class="category-badge category-handyman">Handyman</span>
-      </div>
-      <div class="card-details">
-        <div class="card-contact">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-          <a href="tel:+17783868384">7783868384</a>
         </div>
       </div>
     </div>
@@ -520,7 +485,7 @@ permalink: /
   </section>
 
   <section id="community-documents" class="expand-section" style="max-width: 250px; min-width: 200px; padding: 20px 10px; flex: 1 1 0;">
-    <h2 class="expand-header" style="cursor: pointer;">Community Documents</h2>
+    <h2 class="expand-header" style="cursor: pointer;">Documents</h2>
     <div class="section-content" style="display: none;">
       <p>Access shared community files such as registration forms, bylaws, constitution notes, and event documents.</p>
       <p><a href="https://drive.google.com/drive/folders/1Quiw9zk1ALPEZnxPfd-5iw0JvzLguVxt?usp=sharing" target="_blank">Open Google Drive Documents</a></p>
@@ -555,14 +520,30 @@ permalink: /
 
 <!-- Expand/collapse JS -->
 <script>
-  document.querySelectorAll('.expand-header').forEach(header => {
-    header.addEventListener('click', function() {
-      const content = header.parentElement.querySelector('.section-content');
+  document.querySelectorAll('.expand-section').forEach(section => {
+    section.addEventListener('click', function(event) {
+      // Allow normal behavior for interactive elements inside the section.
+      if (event.target.closest('a, button, input, textarea, select, label')) {
+        return;
+      }
+
+      const content = section.querySelector('.section-content');
+      const header = section.querySelector('.expand-header');
       const expanded = content.style.display === 'block';
-      // Hide others
-      document.querySelectorAll('.section-content').forEach(c => {if (c !== content) c.style.display = 'none';});
+
+      // Hide others and reset chevrons
+      document.querySelectorAll('.expand-section').forEach(otherSection => {
+        const sectionContent = otherSection.querySelector('.section-content');
+        const sectionHeader = otherSection.querySelector('.expand-header');
+        if (sectionContent !== content) {
+          sectionContent.style.display = 'none';
+          sectionHeader.classList.remove('active');
+        }
+      });
+
       // Toggle this one
       content.style.display = expanded ? 'none' : 'block';
+      header.classList.toggle('active', !expanded);
     });
   });
 </script>

@@ -9,6 +9,11 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <div class="event-notification-bar" id="event-notification-bar">
+      <span class="event-notification-text">&#127881; Holi Celebration &ndash; Saturday, April 25 2026! Join us for a colourful celebration with the community.</span>
+      <a href="https://indiansinrichmondbc.github.io/holi" target="_blank" class="event-notification-rsvp">RSVP Now</a>
+      <button class="event-notification-close" aria-label="Dismiss" onclick="document.getElementById('event-notification-bar').style.display='none'">&times;</button>
+    </div>
     <div class="wrapper">
       <header>
         {% if site.logo %}
