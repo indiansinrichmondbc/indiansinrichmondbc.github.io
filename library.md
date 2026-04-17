@@ -42,6 +42,9 @@ description: Secure file library login for community members.
   </section>
 </div>
 
-<script src="{{ '/assets/js/library/local-config.js' | relative_url }}"></script>
+{% assign library_local_config = site.static_files | where: "path", "/assets/js/library/local-config.js" | first %}
+{% if library_local_config %}
+  <script src="{{ '/assets/js/library/local-config.js' | relative_url }}"></script>
+{% endif %}
 <script src="{{ '/assets/js/library/auth.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/library/files.js' | relative_url }}"></script>

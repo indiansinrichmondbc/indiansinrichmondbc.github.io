@@ -1,8 +1,8 @@
 # Indians in Richmond, BC - Community Directory
 
-Welcome to the source code for the [Indians in Richmond, BC](https://indiansinrichmondbc.github.io/) community directory website.
+Welcome to the source code for the [Indians in Richmond, BC](https://indiansinrichmondbc.github.io/) community website.
 
-This website serves as a central, go-to online portal for discovering Indian businesses, services, and cultural hotspots in Richmond, British Columbia.
+This website serves as a central portal for discovering Indian businesses, services, cultural events, and community resources in Richmond, British Columbia.
 
 ## 🚀 Local Development
 
@@ -25,7 +25,7 @@ This website is built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub 
 We welcome contributions from the community! If you'd like to add a new business, update an existing listing, or improve the website's design:
 
 1. Fork this repository.
-2. Make your changes. The directory listings are located in the main `index.md` file, and custom styling is in `assets/css/style.scss`.
+2. Make your changes. The directory listings are located in `_data/businesses.yml`, the homepage is in `index.md`, the directory page is in `directory.md`, and custom styling is in `assets/css/style.scss`.
 3. Submit a Pull Request.
 
 Alternatively, you can click the **"Add/edit/request contacts"** button on the website to contact us directly.

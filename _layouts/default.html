@@ -8,30 +8,92 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
-  <body>
-    <div class="event-notification-bar" id="event-notification-bar">
-      <span class="event-notification-text">&#127881; Holi Celebration &ndash; Saturday, April 25 2026! Join us for a colourful celebration with the community.</span>
-      <a href="https://indiansinrichmondbc.github.io/holi" target="_blank" class="event-notification-rsvp">RSVP Now</a>
-      <button class="event-notification-close" aria-label="Dismiss" onclick="document.getElementById('event-notification-bar').style.display='none'">&times;</button>
-    </div>
-    <div class="wrapper">
-      <header>
-        {% if site.logo %}
-        <a href="https://www.facebook.com/groups/900644660267654"> <img src="{{site.logo | relative_url}}" alt="Logo" /> </a>
-        {% endif %}
-        <ul class="contactus" style="list-style: none;">
-          <li style="padding-bottom: 10px;"><a href="https://www.facebook.com/groups/900644660267654" target="_blank" class="btn btn-primary"><img src="/assets/img/facebook.svg" alt="Facebook Icon" width="24" height="24" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Facebook</strong></a></li>
-          <li style="padding-bottom: 10px;"><a href="https://chat.whatsapp.com/EN5FnmJ9L62IYT3iKOckdJ" target="_blank" class="btn btn-success"><img src="/assets/img/whatsapp.svg" alt="WhatsApp Icon" width="24" height="24" style="vertical-align: middle;"> <strong style="vertical-align: middle;">WhatsApp</strong></a></li>
-          <li style="padding-bottom: 10px;"><a href="https://www.instagram.com/indiansinrichmondbc" target="_blank" class="btn btn-success"><img src="/assets/img/instagram.svg" alt="Instagram Icon" width="24" height="24" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Instagram</strong></a></li>
-          <li style="padding-bottom: 10px;"><a href="https://www.facebook.com/groups/900644660267654/events" target="_blank" class="btn btn-info"><img src="/assets/img/calendar.svg" alt="Events Icon" width="24" height="24" style="vertical-align: middle;"> <strong style="vertical-align: middle;">Events</strong></a></li>
-       </ul>                 
-      </header>      
-        <section>
-        {{ content }}
-        </section>
-      <footer>
+  <body class="{{ page.body_class | default: 'site-page' }}">
+    {% assign about_href = "/#about" | relative_url %}
+    {% assign events_href = "/#events" | relative_url %}
+    {% assign connect_href = "/#connect" | relative_url %}
+    {% if page.url == "/" %}
+      {% assign about_href = "#about" %}
+      {% assign events_href = "#events" %}
+      {% assign connect_href = "#connect" %}
+    {% endif %}
+
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="site-header__inner">
+          <a class="site-brand" href="{{ '/' | relative_url }}">
+            <span class="site-brand__mark">
+              <img src="{{ '/assets/img/namaste.png' | relative_url }}" alt="" aria-hidden="true">
+            </span>
+            <span class="site-brand__text">
+              <strong>Indians in Richmond, BC</strong>
+              <small>Directory, events, and community links</small>
+            </span>
+          </a>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="{{ about_href }}">About Us</a>
+            <a href="{{ events_href }}">Events</a>
+            <a href="{{ '/directory/' | relative_url }}">Directory</a>
+            <a class="nav-cta" href="{{ connect_href }}">Connect with Us</a>
+          </nav>
+        </div>
+      </header>
+
+      {% if page.event_banner %}
+        <div class="event-strip">
+          <div class="event-strip__inner">
+            <span>Holi Celebration: Saturday, April 25, 2026</span>
+            <a href="{{ '/holi/' | relative_url }}">View Event</a>
+          </div>
+        </div>
+      {% endif %}
+
+      <main class="site-main">
+        <div class="page-shell">
+          {{ content }}
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <div>
+            <p class="site-footer__brand">Indians in Richmond, BC</p>
+            <p class="site-footer__copy">A community-built directory, event hub, and resource site for Richmond, British Columbia.</p>
+          </div>
+          <nav class="site-footer__links" aria-label="Footer navigation">
+            <a href="{{ '/directory/' | relative_url }}">Directory</a>
+            <a href="{{ '/library/' | relative_url }}">Library</a>
+            <a href="{{ '/privacy.html' | relative_url }}">Privacy</a>
+            <a href="{{ '/terms.html' | relative_url }}">Terms</a>
+            <a href="https://github.com/indiansinrichmondbc/indiansinrichmondbc.github.io" target="_blank" rel="noopener">GitHub</a>
+          </nav>
+        </div>
       </footer>
+
+      <nav class="mobile-tab-nav" aria-label="Mobile navigation">
+        <a href="{{ '/' | relative_url }}">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 11.4 12 4l9 7.4v8.1a1.5 1.5 0 0 1-1.5 1.5H15v-6H9v6H4.5A1.5 1.5 0 0 1 3 19.5Z"/></svg>
+          <span>Home</span>
+        </a>
+        <a href="{{ '/directory/' | relative_url }}">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 18.5Zm3 2v2h10v-2Zm0 4v2h10v-2Zm0 4v2h6v-2Z"/></svg>
+          <span>Directory</span>
+        </a>
+        <a href="{{ events_href }}">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 2.5h2V5h6V2.5h2V5h1.5A2.5 2.5 0 0 1 21 7.5v11A2.5 2.5 0 0 1 18.5 21h-13A2.5 2.5 0 0 1 3 18.5v-11A2.5 2.5 0 0 1 5.5 5H7Zm12 7H5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5Z"/></svg>
+          <span>Events</span>
+        </a>
+        <a href="{{ connect_href }}">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 11a4 4 0 1 1 8 0 4 4 0 0 1-8 0Zm-4 9a8 8 0 0 1 16 0v1H4Z"/></svg>
+          <span>Connect</span>
+        </a>
+      </nav>
     </div>
+
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if page.include_directory_script %}
+      <script src="{{ "/assets/js/directory.js" | relative_url }}"></script>
+    {% endif %}
+    {% include statcounter.html %}
   </body>
 </html>

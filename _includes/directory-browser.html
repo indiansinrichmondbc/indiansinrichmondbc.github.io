@@ -1,0 +1,52 @@
+{% assign businesses = site.data.businesses %}
+{% assign categories = businesses | map: "category" | uniq | sort %}
+
+<div class="directory-shell" data-directory-root>
+  <div class="directory-toolbar">
+    <label class="search-field" for="search-input">
+      <span class="search-field__label">Search the directory</span>
+      <input type="text" id="search-input" placeholder="Search businesses, categories, or phone numbers">
+    </label>
+    <a href="https://chat.whatsapp.com/EN5FnmJ9L62IYT3iKOckdJ" target="_blank" rel="noopener" class="button button--accent button--large">
+      Add Listing
+    </a>
+  </div>
+
+  <div class="filter-container" aria-label="Directory categories">
+    <button type="button" class="filter-pill active" data-category="all">All</button>
+    {% for category in categories %}
+      {% capture category_label %}{% include category-label.html category=category %}{% endcapture %}
+      <button type="button" class="filter-pill" data-category="{{ category }}">{{ category_label | strip }}</button>
+    {% endfor %}
+  </div>
+
+  <p class="directory-status" aria-live="polite">
+    Showing <span id="directory-count">{{ businesses | size }}</span> of {{ businesses | size }} community listings.
+  </p>
+
+  <div class="business-grid" id="business-grid">
+    {% for business in businesses %}
+      {% capture category_label %}{% include category-label.html category=business.category %}{% endcapture %}
+      <article class="business-card" data-name="{{ business.name | escape }}" data-category="{{ business.category | escape }}" data-contact="{{ business.contact | default: '' | escape }}">
+        <div class="card-header">
+          <h3 class="business-name">{{ business.name }}</h3>
+          <span class="category-badge category-{{ business.category | slugify }}">{{ category_label | strip }}</span>
+        </div>
+        <div class="card-details">
+          <div class="detail-row">
+            {% if business.contact %}
+              <a class="detail-pill detail-pill--primary" href="tel:+1{{ business.contact }}">Call {{ business.contact }}</a>
+            {% endif %}
+            {% if business.links %}
+              {% for link in business.links %}
+                <a class="detail-pill" href="{{ link.url }}" {% unless link.url contains 'mailto:' %}target="_blank" rel="noopener"{% endunless %}>{{ link.label }}</a>
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+
+  <div class="no-results" id="no-results" hidden>No businesses found. Try a different search or category.</div>
+</div>
